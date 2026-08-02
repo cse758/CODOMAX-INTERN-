@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+header{
+    background-color: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1{
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+header p{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+nav{
+    margin-top: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    margin: 0 12px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: #38bdf8;
+}
+
+section{
+    background: white;
+    width: 80%;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
+}
+
+section h2{
+    color: #0f172a;
+    margin-bottom: 15px;
+}
+
+section h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #2563eb;
+}
+
+section p{
+    margin-bottom: 15px;
+}
+
+ul,
+ol{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+li{
+    margin-bottom: 8px;
+}
+
+button{
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+button:hover{
+    background-color: #1d4ed8;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table,
+th,
+td{
+    border: 1px solid #ccc;
+}
+
+th{
+    background-color: #2563eb;
+    color: white;
+}
+
+th,
+td{
+    padding: 12px;
+    text-align: center;
+}
+
+form{
+    margin-top: 20px;
+}
+
+label{
+    font-weight: bold;
+}
+
+input,
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+textarea{
+    resize: vertical;
+}
+
+input[type="submit"]{
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover{
+    background-color: #1d4ed8;
+}
+
+hr{
+    margin: 20px 0;
+    border: 1px solid #ddd;
+}
+
+footer{
+    background-color: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+footer p{
+    margin: 8px 0;
+}
+
+@media(max-width:768px){
+
+    section{
+        width: 95%;
+    }
+
+    header h1{
+        font-size: 30px;
+    }
+
+    nav a{
+        display: inline-block;
+        margin: 8px;
+    }
+
+}
