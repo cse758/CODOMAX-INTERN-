@@ -1,93 +1,109 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Atharv Jaiswal | Portfolio</title>
+
     <link rel="stylesheet" href="folio3.css">
 </head>
 
 <body>
 
-    <header id="home">
+<header id="home">
 
-        <h1>Atharv Jaiswal</h1>
-        <p>B.Tech CSE Student | Web Developer | AI Enthusiast</p>
+    <h1>Atharv Jaiswal</h1>
 
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#hero">Hero</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#education">Education</a>
-            <a href="#contact">Contact</a>
-        </nav>
+    <p>B.Tech CSE Student | Web Developer | AI Enthusiast</p>
 
-    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#hero">Hero</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
-    <main>
+</header>
 
-        <section id="hero" class="hero-container">
 
-            <div class="hero-text">
-                <h2>Welcome to My Portfolio</h2>
+<main>
 
-                <p>
-                    Hello! I am <strong>Atharv Jaiswal</strong>, a B.Tech Computer
-                    Science Engineering student passionate about Web Development,
-                    Artificial Intelligence, and Software Development.
-                </p>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-container">
 
-                <button>Learn More</button>
-            </div>
+        <div class="hero-text">
 
-        </section>
+            <h2>Welcome to My Portfolio</h2>
 
-        <section id="about" class="about-container">
+            <p>
+                Hello! I am <strong>Atharv Jaiswal</strong>, a B.Tech Computer
+                Science Engineering student passionate about Web Development,
+                Artificial Intelligence, and Software Development.
+            </p>
 
-            <div>
+            <button>Learn More</button>
 
-                <h2>About Me</h2>
+        </div>
 
-                <p>
-                    I am currently pursuing B.Tech in Computer Science Engineering.
-                    I enjoy learning HTML, CSS, JavaScript, React, and C++.
-                    My goal is to become a skilled Software Engineer and AI Engineer.
-                </p>
+    </section>
 
-            </div>
 
-        </section>
+    <!-- About Section -->
+    <section id="about" class="about-container">
 
-        <section id="skills">
+        <div>
 
-            <h2>My Skills</h2>
+            <h2>About Me</h2>
 
-            <div class="skills-grid">
+            <p>
+                I am currently pursuing B.Tech in Computer Science Engineering.
+                I enjoy learning HTML, CSS, JavaScript, React, and C++.
+                My goal is to become a skilled Software Engineer and AI Engineer.
+            </p>
 
-                <div class="skill">HTML</div>
-                <div class="skill">CSS</div>
-                <div class="skill">JavaScript</div>
-                <div class="skill">React</div>
-                <div class="skill">C++</div>
-                <div class="skill">Git & GitHub</div>
+        </div>
 
-            </div>
+    </section>
 
-            <h3>My Hobbies</h3>
 
-            <ol>
-                <li>Programming</li>
-                <li>Reading Tech Blogs</li>
-                <li>Learning Artificial Intelligence</li>
-                <li>Playing Cricket</li>
-            </ol>
+    <!-- Skills Section -->
+    <section id="skills">
 
-        </section>
+        <h2>My Skills</h2>
 
-        <section id="education">
+        <div class="skills-grid">
 
-            <h2>Education</h2>
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">React</div>
+            <div class="skill">C++</div>
+            <div class="skill">Git & GitHub</div>
+
+        </div>
+
+        <h3>My Hobbies</h3>
+
+        <ol>
+            <li>Programming</li>
+            <li>Reading Tech Blogs</li>
+            <li>Learning Artificial Intelligence</li>
+            <li>Playing Cricket</li>
+        </ol>
+
+    </section>
+
+
+    <!-- Education Section -->
+    <section id="education">
+
+        <h2>Education</h2>
+
+        <div class="table-container">
 
             <table>
 
@@ -117,43 +133,72 @@
 
             </table>
 
-        </section>
+        </div>
 
-        <section id="contact">
+    </section>
 
-            <h2>Contact Me</h2>
 
-            <form>
+    <!-- Contact Section -->
+    <section id="contact">
 
-                <label>Name</label>
-                <input type="text" placeholder="Enter your name" required>
+        <h2>Contact Me</h2>
 
-                <label>Email</label>
-                <input type="email" placeholder="Enter your email" required>
+        <form>
 
-                <label>Phone</label>
-                <input type="tel" placeholder="Enter your phone number">
+            <label for="name">Name</label>
+            <input
+                type="text"
+                id="name"
+                placeholder="Enter your name"
+                required
+            >
 
-                <label>Message</label>
-                <textarea rows="5" placeholder="Write your message"></textarea>
+            <label for="email">Email</label>
+            <input
+                type="email"
+                id="email"
+                placeholder="Enter your email"
+                required
+            >
 
-                <input type="submit" value="Send Message">
+            <label for="phone">Phone</label>
+            <input
+                type="tel"
+                id="phone"
+                placeholder="Enter your phone number"
+            >
 
-            </form>
+            <label for="message">Message</label>
+            <textarea
+                id="message"
+                rows="5"
+                placeholder="Write your message"
+            ></textarea>
 
-        </section>
+            <input type="submit" value="Send Message">
 
-    </main>
+        </form>
 
-    <footer>
+    </section>
 
-        <p><strong>Atharv Jaiswal</strong></p>
-        <p>Email: atharv@example.com</p>
-        <p>Phone: +91-XXXXXXXXXX</p>
-        <p>LinkedIn | GitHub | Instagram</p>
-        <p>&copy; 2026 Atharv Jaiswal. All Rights Reserved.</p>
+</main>
 
-    </footer>
+
+<!-- Footer -->
+<footer>
+
+    <p><strong>Atharv Jaiswal</strong></p>
+
+    <p>Email: atharv@example.com</p>
+
+    <p>Phone: +91-XXXXXXXXXX</p>
+
+    <p>LinkedIn | GitHub | Instagram</p>
+
+    <p>&copy; 2026 Atharv Jaiswal. All Rights Reserved.</p>
+
+</footer>
 
 </body>
 </html>
+```
